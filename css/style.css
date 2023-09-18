@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    width: 700px;
+    height: 400px;
+    border: 2px solid red;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    display: inline-block;
+    background-image: url(../cars.jpg);
+    background-size: 100%;
+    vertical-align: top;
+    
+
+}
+.box2{
+    width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        display: inline-block;
+        background-image: url(../bistro_img_compressed.jpg);
+        background-size: cover;
+        background-position: center;
+        vertical-align: top;
+    
+}
+.box3{
+    width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        display: inline-block;
+       background-image: url(../img.jpg);       
+       vertical-align: top;
+       background-size: cover;
+       background-position: right;
+       padding: 2px;
+       
+        
+}
+
+.section2{
+    width: 700px;
+    height: 400px;
+    border: 2px solid rgb(4, 14, 81);
+    margin-top: 20px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(7, 6, 6);
+    display: inline-block;
+    background-size: 100%;
+    vertical-align: top;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(5, 4, 4);
+    display: inline-block;
+    background-size: 100%;
+    vertical-align: top;
+    
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(7, 6, 6);
+    display: inline-block;
+    background-size: 100%;
+    vertical-align: top;
+    
+}
