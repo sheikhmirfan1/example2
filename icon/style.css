@@ -1,0 +1,63 @@
+*{
+    box-sizing:border-box;
+  
+}
+body{ 
+    width: 80%;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    background-color: grey;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color:gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footercontainer{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.bi-three-dots-vertical{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.one{
+    width: 25%;
+    height: 20px;
+    /* border: 1px solid black; */
+}
+.two{
+    width: 25%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.three{
+    width: 25%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid black; */
+    text-align: end;
+
+}
