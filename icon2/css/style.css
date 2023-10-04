@@ -12,7 +12,7 @@ p {
     margin: 0 auto;
     
 }
-li{
+ul{
     list-style: none;
 }
 
@@ -50,8 +50,22 @@ li{
     font-size: 2.4375rem;
 }
 
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(28, 28, 28);
+  }
+} */
+.playlist-item-link:hover{
+    color: rgb(187, 24, 54);
+}
+.playlist-list-item::marker{
+    content:"▶️";
+    font-size: 1rem;
+}
 
 footer:hover{
     color: red;
     cursor: not-allowed;
 }
+
+
