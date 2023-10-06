@@ -22,13 +22,24 @@ header{
 .form-field> input{
     display: block;
     width: 70%;
+    
 }
 label{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 8px ;
+  
 }
 .form-field,
 .form-buttons{
     margin: 20px 0;
+    
+}
+input:focus{
+    outline: 2px solid red;
+    
+}
+input[type='text']{
+    background-color: orange;
+
 }
