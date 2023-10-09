@@ -1,0 +1,25 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+th, td{
+    border: 1px solid #000000;
+    padding: 20px;
+}
+tfoot{
+    font-weight: bold;
+    background-color: darkgrey;
+    color: rgba(109, 6, 6, 0.936);
+}
