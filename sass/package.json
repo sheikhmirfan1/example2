@@ -1,15 +1,19 @@
 {
-  "name": "tailwindscss",
+  "name": "sass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch":"tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch",
+    "sass": "sass scss/style.scss css/style.css",
+    "watch": "sass --watch scss/style.scss css/style.css",
+    
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.3.5"
+    "sass": "^1.69.5"
   }
 }
